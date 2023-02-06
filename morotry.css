@@ -1,0 +1,499 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ 
+ nav img{
+     width: 13%;
+     height: auto;
+ }
+
+ nav{
+    width: 100%;
+    min-width: 300px;
+ }
+ 
+ header{
+     background-color: rgba(19, 16, 16, 0.932);
+     height: 100px;
+     
+     display: flex;
+     align-items:center ;
+     padding-left: 22px;
+    
+ }
+ .container{
+    display: flex;
+    font-size: 25px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.container a{
+    color: white;
+} 
+
+.banner{
+    overflow: hidden;
+    background-image: url('./slide-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 150px 0;
+    padding-left: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.step{
+    
+}
+
+.step h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 3.72rem;
+  
+}
+.step p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size:22px ;
+}
+
+.grt{
+    word-spacing: 8px;
+    
+}
+
+.grt .btn-1{
+    background-color: rgba(243, 11, 50, 0.959);
+    color: #fff;
+    height: 5vh;
+    width: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+.grt .btn{
+    background-color:rgba(12, 10, 10, 0.932);
+    color: #fff;
+    height: 5vh;
+    width: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main p{
+    padding-top: 44px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main h3{
+    padding-top: 40px;
+    font-size: 22px;
+ 
+}
+
+.main hr{
+    width: 140px;
+}
+
+.mile h3{
+    text-decoration: underline;
+    text-decoration-color: rgba(243, 11, 50, 0.959);
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+    font-size:34px;
+}
+
+.contai{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.cont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.945);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+
+.loop{
+    background-color: rgba(243, 8, 78, 0.952);
+    color:#fff;
+    width: 52px;
+    padding-top: 5px;
+    height: 36px;
+}
+
+.left{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.mike1{
+    background-color: rgba(216, 8, 53, 0.952);
+    color:#fff;
+    width: 52px;
+    padding-top: 7px;
+    height: 36px;
+}
+
+.color{
+    background-color: rgba(216, 8, 53, 0.952);
+    color: #fff;
+    width: 51px;
+    height: 36px;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.left {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.945);
+}
+
+.right {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.945);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mike h3{
+    text-decoration: underline;
+    text-decoration-color: rgba(243, 11, 50, 0.959);
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+    font-size:34px;
+}
+
+.mike h3{
+    color: rgba(0, 0, 0, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container3 button{
+    padding: 18px 28px;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+
+}
+
+.container3 button:hover{
+    background-color:rgba(243, 11, 50, 0.959);
+    color:#fff;
+}
+
+.container3 input{
+    width: 40%;
+    border: none;
+    padding: 15px 0px;
+    box-shadow: 0px 0px 2px 0px rgba(63, 54, 54, 0.788);
+    margin-left: 24px;
+}
+
+#pitch{
+    margin-left: 12px;
+}
+
+.scnd{
+    margin-right: 60%;
+}
+
+.shame{
+    margin: 0px 20%;
+}
+
+.shame button{
+    border: none;
+    margin: 4px 8px;
+    padding: 10px 25px;
+    color: rgba(0, 0, 0, 0.877);
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px rgba(63, 54, 54, 0.788);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shame button:hover{
+    background-color:rgba(243, 11, 50, 0.959);
+    color: #fff;
+}
+
+.element{
+    width: 100%;
+}
+
+.shit{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.shit h1{
+   margin-top: 33px;
+   font-size: 19px;
+   color: rgba(223, 13, 58, 0.904);
+}
+
+
+.element h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 73px;
+}
+
+
+.boss{
+    width:33%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.boss img{
+   max-width: 70%;   
+}
+
+.shit button{
+    color:  rgba(255, 255, 255, 0.904);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.shit button:hover{
+   background-color: crimson;
+}
+
+
+
+.copy h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(243, 11, 50, 0.959);
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 72px;
+    font-size: 38px;
+}
+
+.copy p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.tariq{
+    width: 100%;
+}
+
+.riz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  
+}
+
+.rock{
+   display: flex;
+   flex-direction: row;
+   width: 30%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 44px 0px;
+}
+
+.class img{
+    width: 20%;
+    padding-left: 39px
+     
+} 
+
+.rock h3, .rock p{
+   padding-right: 43px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.rock h3{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+
+.rock p{
+    font-size: 19px;
+    color: black;
+}
+
+.malik{
+     flex-direction: column;
+     margin-top: 42px;
+}
+
+.gondal{
+    width: 140px;
+    height: 140px;
+    padding: 0px;
+    margin: 0px;
+     border-radius: 50%;
+     margin-left: 19px;
+}
+
+.gujj{
+    width: 100%;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.malik h3{
+    padding-left:19px ;
+    padding-top: 20px;
+}
+
+.malik p{
+    padding-left:19px ;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.malik{
+    box-shadow: 0.1px 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+}
+.farman{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: #fff;
+    margin-top: 10%;
+}
+.moix{
+    display: flex;
+    width: 100%;
+    
+}
+
+.hus{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.goback{
+    display: flex;
+
+}
+
+.muheb img{
+    width: 70%;
+}
+
+.muheb{
+    margin-top:12%;
+    margin-left: 5%;
+}
+
+.line a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.1rem;
+    color: #fff;
+}
+
+.line h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.line{
+    margin-top: 6%;
+}
+.goback i{
+    color: rgb(209, 0, 0);
+    font-size: 16px;
+}
+.goback img{
+    width: 10%;
+    height: 30%;
+}
+.goback h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 29px;
+    padding-left: 3%;
+}
+.goback{
+    display: flex;
+    align-items: center;
+    margin-top: -10%;
+}
+.one h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.one{
+    padding: 2% 0px;
+}
